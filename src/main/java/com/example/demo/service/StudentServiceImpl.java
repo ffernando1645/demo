@@ -6,13 +6,25 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.objects.Student;
+import com.example.demo.objects.person;
 import com.example.demo.repository.StudentRepository;
+
+/*
+ * it is used to mark the class as a service provider.
+ * */
 
 @Service
 public class StudentServiceImpl implements StudentService {
 
+	/*
+	 * is the feature of the spring boot framework, which was used to enable us to inject 
+	 * the dependency object implicitly;
+	 * */
 	@Autowired
 	private StudentRepository repository;
+	
+	@Autowired
+	private person person;
 	
 	@Override
 	public List<Student> findAll() {

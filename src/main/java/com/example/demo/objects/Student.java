@@ -9,6 +9,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/*
+ * The annotations @Document applied to a class marks this class as a candidate for mapping to the database. T
+ * */
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter

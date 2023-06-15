@@ -7,6 +7,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/*
+ * Lombok is the tool of the java library that was used to generate code for minimizing the unused code.
+ * */
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
